@@ -30,7 +30,17 @@ HTML/CSS TIL
        하위 폴더로 이동시 폴더명/파일이름.확장자 <br>
        상위 폴더로 이동시 ../파일이름.확장자
 2. 기본 CSS 속성
+
    - font-size
    - text-align
    - color
    - margin-[top|bottom|left|right]
+
+3. 클래스(class)와 아이디(id)
+   - 클래스(class) <br>
+     class="class명"으로 지정 <br>
+     중복사용가능, 한 태그에 여러개의 class명 지정가능 <br>
+     CSS 적용시 .클래스 명 -아이디(id) <br>
+   - id = "id명"으로 지정 <br>
+     중복사용불가, 한 태그에 하나의 id명만 지정가능 <br>
+     CSS 적용시 #아이디 명
