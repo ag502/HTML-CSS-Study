@@ -22,3 +22,8 @@ HTML/CSS TIL
      이탈릭체
    - \<em> <br>
      텍스트를 이탈릭체로 변환하지만 semantic tag
+2. 기본 CSS 속성
+   - font-size
+   - text-align
+   - color
+   - margin-[top|bottom|left|right]
