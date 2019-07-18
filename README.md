@@ -22,6 +22,13 @@ HTML/CSS TIL
      이탈릭체
    - \<em> <br>
      텍스트를 이탈릭체로 변환하지만 semantic tag
+   - \<a> <br>
+     하이퍼링크 태그, target = \_blank 속성 설정시 새탭에서 링크실행
+   - \<img> <br>
+     src속성에 상대경로, 절대경로 입력. <br>
+     - 상대경로 <br>
+       하위 폴더로 이동시 폴더명/파일이름.확장자 <br>
+       상위 폴더로 이동시 ../파일이름.확장자
 2. 기본 CSS 속성
    - font-size
    - text-align
