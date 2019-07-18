@@ -14,3 +14,11 @@ HTML/CSS TIL
    - \<p> <br>
      문단은 \<p> 안에 삽입. <br>
      위, 아래에 여백이 생김
+   - \<b> <br>
+     굵은 텍스트
+   - \<strong> <br>
+     텍스트를 굵게 변환하지만 의미가 있는 semantic tag
+   - \<i> <br>
+     이탈릭체
+   - \<em> <br>
+     텍스트를 이탈릭체로 변환하지만 semantic tag
