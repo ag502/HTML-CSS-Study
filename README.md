@@ -84,3 +84,6 @@ HTML/CSS TIL
 
 5. Box Model
    - content, border, padding, margin
+   - width, height
+     - min : 설정한 값 이하로 크기가 줄지 않음
+     - max : 설정한 값 이상으로 크기가 늘어 나지 않음
