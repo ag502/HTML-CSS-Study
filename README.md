@@ -58,4 +58,5 @@ HTML/CSS TIL
    - text-weight <br>
      100 ~ 900까지 100단위
    - text-decoration <br>
-     underline, overline, line-through
+     underline, overline, line-through, none <br>
+     a **Tag의 링크 밑줄을 없앨때 none 사용**
