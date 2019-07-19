@@ -60,3 +60,13 @@ HTML/CSS TIL
    - text-decoration <br>
      underline, overline, line-through, none <br>
      a **Tag의 링크 밑줄을 없앨때 none 사용**
+   - font-size
+     - Absolute
+       - px <br>
+       - pt <br>
+         px보다 1.3배정도 큼
+     - Relative
+       - % <br>
+         부모 요소와 비교해서 적용
+       - em <br>
+         % / 100
