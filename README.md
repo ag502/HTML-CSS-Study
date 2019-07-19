@@ -53,8 +53,8 @@ HTML/CSS TIL
      - 색이름 사용
      - RBG(r, g, b)
    - text-align <br>
-     inline 요소에는 적용되지 않음 <br>
-     block 요소로 감싸거나 display:block 후 적용
+     <U>inline 요소에는 적용되지 않음</U> <br>
+     <u>block 요소로 감싸거나 display:block 후 적용</u>
    - text-weight <br>
      100 ~ 900까지 100단위
    - text-decoration <br>
