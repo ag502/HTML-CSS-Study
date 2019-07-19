@@ -70,3 +70,6 @@ HTML/CSS TIL
          부모 요소와 비교해서 적용
        - em <br>
          % / 100
+   - line-height <br>
+     줄간격 조정, content-area에는 영향을 미치지 않음 <br>
+     font-size, font-family에 영향을 받음
