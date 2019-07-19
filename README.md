@@ -55,5 +55,5 @@ HTML/CSS TIL
    - text-align
    - text-weight <br>
      100 ~ 900까지 100단위
-   - text-decorate <br>
+   - text-decoration <br>
      underline, overline, line-through
