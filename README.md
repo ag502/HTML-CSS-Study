@@ -49,6 +49,7 @@ HTML/CSS TIL
      CSS 적용시 #아이디 명
 
 4. TextStyling
+
    - TextColor
      - HEX(16진법)
      - 색이름 사용
@@ -80,3 +81,6 @@ HTML/CSS TIL
      font file 사용 : @ font-face <br>
      font category
      - serif, sans-serif, monospace, cursive, fantasy
+
+5. Box Model
+   - content, border, padding, margin
