@@ -87,3 +87,14 @@ HTML/CSS TIL
    - width, height
      - min : 설정한 값 이하로 크기가 줄지 않음
      - max : 설정한 값 이상으로 크기가 늘어 나지 않음
+   - overflow <br>
+     width, height, max-width, max-height 설정시 <br>
+     내용이 들어갈 공간이 부족하여 넘칠경우
+     - : hidden <br>
+       넘친 내용을 자름
+     - : scroll <br>
+       스크롤을 내려 볼 수 있게 함
+     - : auto <br>
+       스크롤을 내려 볼 수 있게 함(내용이 넘칠때만 스크롤 생성)
+     - : visible <br>
+       기본값 넘친 내용을 그대로 보여줌
