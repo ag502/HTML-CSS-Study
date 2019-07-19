@@ -74,7 +74,8 @@ HTML/CSS TIL
      줄간격 조정, content-area에는 영향을 미치지 않음 <br>
      font-size, font-family에 영향을 받음
    - font-family <br>
-     font-family : "제1폰트" "제2폰트" .... "font category" <br>
-     google font 사용
-     - font category <br>
-       serif, sans-serif, monospace, cursive, fantasy
+     font-family : "제1폰트", "제2폰트",...., "font category" <br>
+     google font 사용 <br>
+     font file 사용 : @ font-face <br>
+     font category
+     - serif, sans-serif, monospace, cursive, fantasy
