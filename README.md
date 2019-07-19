@@ -52,3 +52,8 @@ HTML/CSS TIL
      - HEX(16진법)
      - 색이름 사용
      - RBG(r, g, b)
+   - text-align
+   - text-weight <br>
+     100 ~ 900까지 100단위
+   - text-decorate <br>
+     underline, overline, line-through
