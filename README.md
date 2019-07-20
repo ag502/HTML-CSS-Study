@@ -224,3 +224,12 @@ HTML/CSS TIL
       tag:hover {
       }
       ```
+
+2.  CSS 우선순위
+    - 순서 <br>
+      똑같은 선택자가 뒤에 나오게 되면 이전 스타일을 덮어씀
+    - Specificity <br>
+      1. 인라인 스타일
+      2. 선택자의 id 갯수
+      3. 선택자의 class, attribute, pseudo-class
+      4. 나머지 요소(가상요소 포함)
