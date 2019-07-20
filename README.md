@@ -114,9 +114,15 @@ HTML/CSS TIL
      border: none;
 
 2. Box Styling<br>
+
    - border-radius <br>
      border-[top|bottom]-[left|right] - radius <br>
      모서리를 둥글게 만듦
    - background-color
    - box-shadow <br>
      box-shadow: 세로 가로 [blur][spread] [color]
+
+3. Box-Sizing <br>
+   width, heigth 값을 정한 후 padding 이나 border를 지정하는 경우 기존의 width, height값에 padding, border의 값이 더해짐 <br>
+   해결책: box-sizing: border-box <br>
+   지정한 width, height 값을 유지하기 위해 자동조절됨.
