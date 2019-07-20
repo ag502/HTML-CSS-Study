@@ -98,3 +98,17 @@ HTML/CSS TIL
        스크롤을 내려 볼 수 있게 함(내용이 넘칠때만 스크롤 생성)
      - : visible <br>
        기본값 넘친 내용을 그대로 보여줌
+
+---
+
+## 2019-07-20
+
+1. Border <br>
+
+   - 한줄에 끝내기 <br>
+     border: 선굵기, 선종류, 색깔
+   - 나눠서 지정 <br>
+     border-width, border-style, border-color
+   - 테두리 없애기 <br>
+     <u>input 태그에 기본설정 제거할때</u> <br>
+     border: none;
