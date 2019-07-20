@@ -126,3 +126,21 @@ HTML/CSS TIL
    width, heigth 값을 정한 후 padding 이나 border를 지정하는 경우 기존의 width, height값에 padding, border의 값이 더해짐 <br>
    해결책: box-sizing: border-box <br>
    지정한 width, height 값을 유지하기 위해 자동조절됨.
+
+4. Background Image
+   - background-image: url("경로")
+   - background-repeat
+     - no-repeat: 반복없음
+     - repeat-x : x축으로 반복
+     - repeat-y : y축으로 반복
+     - repeat : x, y축으로 반복
+     - space: 반복할 수 있을 만큼 반복하고 남은공간 여백
+     - round: 반복할 수 있을 만큼 반복하고 남는공간 이미지 확대
+   - background-size
+     - auto: 원래 사이즈대로 출력
+     - cover:화면을 채우면서 비율 유지
+     - contain: 가로, 세로중 먼저 채워지는 쪽에 맞춰서 출력
+     - 픽셀값 지정
+     - 퍼센트값 지정
+   - background-position
+     - [left|right|center top|bottom|center]
