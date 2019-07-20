@@ -112,3 +112,11 @@ HTML/CSS TIL
    - 테두리 없애기 <br>
      <u>input 태그에 기본설정 제거할때</u> <br>
      border: none;
+
+2. Box Styling<br>
+   - border-radius <br>
+     border-[top|bottom]-[left|right] - radius <br>
+     모서리를 둥글게 만듦
+   - background-color
+   - box-shadow <br>
+     box-shadow: 세로 가로 [blur][spread] [color]
