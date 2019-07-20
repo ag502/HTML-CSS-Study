@@ -144,3 +144,83 @@ HTML/CSS TIL
      - 퍼센트값 지정
    - background-position
      - [left|right|center top|bottom|center]
+
+---
+
+## 2019-07-21
+
+1.  css 선택자
+
+    - 태그이름 <br>
+      ```css
+      /* 모든 <h1> 태그 */
+      h1 {
+      }
+      ```
+    - 클래스/아이디 <br>
+
+      ```css
+      /* something이라는 클래스를 가지고 있는 모든 태그*/
+      .something {
+      }
+
+      /* something이라는 아이디를 가지고 있는 태그 */
+      #something {
+      }
+      ```
+
+    - 자식(children) <br>
+      ```css
+      /* something 클래스를 가지고 있는 요소의 자식 중 모든 <a> 태그 */
+      .something i {
+      }
+      ```
+    - 직계 자식(direct children) <br>
+      ```css
+      /* something 클래스를 갖고 있는 모든 요소의 직속 자식 중 모든 <a> 태그 */
+      .something > a {
+      }
+      ```
+    - 복수 선택 <br>
+      ```css
+      /* one 클래스를 가지고 있는 태그 모두와 theOther 클래스를 가지고 있는 태그 모두 선택 */
+      .one,
+      .theOther {
+      }
+      ```
+    - 여러조건 <br>
+      ```css
+      /* one 클래스도 가지고 있으면서도 theOther 클래스도 가지고 있는 태그 */
+      .one.theOther {
+      }
+      ```
+    - 가상 클래스(Pseudo-class) <br>
+
+      ```css
+      /* something 클래스의 자식인 p태그 중 세번째 */
+      .something p:nth-child(3) {
+      }
+
+      /* something 클래스의 자식인 p태그 중 첫번째 */
+      .something p:first-child {
+      }
+
+      /* something 클래스의 자식인 p태그 중 마지막 */
+      .something p:last-child {
+      }
+
+      /* something 클래스의 자식인 p태그 중 마지막이 아닌 p태그 */
+      .something p:not(:last-child) {
+      }
+
+      /* something 클래스의 자식인 p태그 중 첫번째가 아닌 p태크 */
+      .something p:not(:first-child) {
+      }
+      ```
+
+    - 마우스 호버 <br>
+      ```css
+      /* 마우스가 태그에 올라갔을 때 */
+      tag:hover {
+      }
+      ```
