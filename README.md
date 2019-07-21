@@ -238,10 +238,13 @@ HTML/CSS TIL
 3.  Display
     - 종류
       - inline <br>
-        같은줄에 머무름, 필요한 만큼의 가로길이
+        같은줄에 머무름, 필요한 만큼의 가로길이 <br>
+        가로, 세로의 의미가 없음
       - block <br>
         새로운 줄에 생김, 최대한 넒은 가로길이
-      - inline-block
+      - inline-block <br>
+        inline요소와 같이 같은 줄에 머무르면서도, <br>
+        block요소와 같이 가로, 세로의 길이가 필요할때
       - flex
       - list-item
       - none
