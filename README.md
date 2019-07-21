@@ -248,3 +248,6 @@ HTML/CSS TIL
       - flex
       - list-item
       - none
+    - BaseLine <br>
+      글씨의 하단 부분 <br>
+      inline 요소들은 baseline에 맞춰 정렬
