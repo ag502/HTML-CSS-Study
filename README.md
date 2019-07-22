@@ -277,3 +277,15 @@ HTML/CSS TIL
    공간이 부족하게 되면 다음줄로 내려감 --> 너비를 창너비의 %로 주게되면 비율이 유지됨 <br>
    - clear <br>
      [left | right]로 왼쪽과 오른쪽에 float된 요소를 없게함
+
+---
+
+## 2019-07-23
+
+1. 리스트
+   - ol(ordered list) <br>
+     순서가 있는 리스트, type으로 번호 양식을 지정
+   - ul(unordered list) <br>
+     순서가 없는 리스트 <br>
+     list-style-type로 모양 변화 <br>
+   - list-style:none 으로 리스트의 기호 제거
