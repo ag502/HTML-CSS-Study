@@ -251,3 +251,29 @@ HTML/CSS TIL
     - BaseLine <br>
       글씨의 하단 부분 <br>
       inline 요소들은 baseline에 맞춰 정렬
+
+---
+
+## 2019-07-22
+
+1. Positioning
+
+   - static <br>
+     defalut값, 원래의 있어야할 자리
+   - relative<br>
+     현재의 위치기준으로 [top | bottom | left | right] 의 값을 지정해서 움직일 수 있음 <br>
+     위치를 움직이게 되면 원래의 있었던 자리에 공간이 남아 있음
+   - fixed <br>
+     브라우저의 위치기준으로 [top | bottom | left | right]의 값을 지정해서 움직일 수 있음 <br>
+     스크롤을 해도 항상 그자리에 고정 되어 있음 <br>
+     위치를 움직이게 되면 원래의 있었던 자리에 공간이 채워지게 됨
+   - absolute <br>
+     포지셔닝된(fixed, relative, absolute) 가장 가까운 조상 요소를 기준으로 [top | bottom | left | right]의 값을 지정해서 움직일 수 있음 <br>
+     포지셔닝된 조상 요소가 없다면 브라우저 기준으로 이동
+
+2. Float<br>
+   해당요소를 띄우고 빈자리는 채워지게 됨. <br>
+   단 inline요소나 inline-block 요소는 띄워진 요소 아래로 들어가지 못함 <br>
+   공간이 부족하게 되면 다음줄로 내려감 --> 너비를 창너비의 %로 주게되면 비율이 유지됨 <br>
+   - clear <br>
+     [left | right]로 왼쪽과 오른쪽에 float된 요소를 없게함
