@@ -1,0 +1,106 @@
+/* CSS Reset */
+body,
+ul,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-image: url("images/bg.png");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.wrapper {
+  background-image: url(images/rope.png);
+  background-position: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  background-image: url(images/logo.png);
+  display: inline-block;
+  width: 450px;
+  height: 140px;
+  margin: 20px 0;
+  text-indent: -9999px;
+}
+
+.menu {
+  width: 300px;
+  margin: 30px auto;
+  color: #666;
+}
+
+.menu li {
+  margin-bottom: 5px;
+}
+
+.menu li a {
+  border: 2px solid;
+  padding: 5px 0;
+  display: block;
+}
+
+.menu li a:hover {
+  color: orange;
+}
+
+.section {
+  background-image: url(images/wood.png);
+  margin: 50px 0;
+  padding: 30px;
+  border: 10px double #3f2217;
+  color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.6);
+}
+
+.section h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 174px;
+  background-image: url(images/animal01.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.section p {
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #7d410d;
+  color: pink;
+  text-align: center;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.footer:before {
+  content: "";
+  background-image: url(images/ground.png);
+  height: 50px;
+  display: block;
+}
+
+.footer p {
+  padding: 10px 0;
+}
