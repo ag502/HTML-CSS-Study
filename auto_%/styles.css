@@ -18,8 +18,9 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .timeline {
@@ -110,4 +111,23 @@ body {
 
 .tour-contents {
   padding: 30px;
+}
+
+@media (max-width: 720px) {
+  .timeline-item:nth-child(even),
+  .timeline-item {
+    width: auto;
+    margin-left: 50px;
+    margin: 0 0 20px 50px;
+  }
+
+  .timeline:before {
+    left: 45px;
+    transform: none;
+  }
+
+  .timeline-item:after,
+  .timeline-item:before {
+    left: 0;
+  }
 }
