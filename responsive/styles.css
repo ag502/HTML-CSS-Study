@@ -1,12 +1,32 @@
 /* CSS Reset */
 body,
-p {
+h1,
+h2,
+h3,
+p,
+ul {
   margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
 }
 
 /* Layouts */
@@ -26,6 +46,7 @@ a {
 }
 
 /* Common CSS*/
+.clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
@@ -112,17 +133,114 @@ body {
 
 .course-cover {
   background-image: url(images/cover.png);
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  position: relative;
+}
+
+.course-cover:after {
+  content: "";
+  background-color: blue;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.course-creator,
+.course-title {
+  position: relative;
+  z-index: 10;
+}
+
+.course-creator {
+  float: right;
+  margin-left: 10px;
+  width: 50px;
+  text-align: right;
+}
+
+.course-creator img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.course-creator-contents {
+  padding: 5px;
+}
+
+.course-creator-contents strong {
+  display: block;
+}
+
+.course-title {
+  overflow: hidden;
+}
+
+.course-title h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .course-section {
-  background-color: orange;
   margin: 20px 0;
 }
 
-@media (max-width: 480px) {
+.course-section h2 {
+  font-size: 30px;
+  color: #999;
+  border-bottom: 2px solid;
+}
+
+.curriculum {
+  background-color: #333;
+}
+
+.curriculum-item {
+  background-color: #666;
+  margin-bottom: 5px;
+}
+
+.curriculum-item:last-child {
+  margin-bottom: 0;
+}
+
+.curriculum-item h3 {
+  margin: 10px 20px;
+}
+
+.curriculum-item-list {
+  background-color: #111;
+  padding: 20px 0px;
+  margin: 5px;
+}
+
+.curriculum-link {
+  display: block;
+  margin: 0 25px 5px;
+  padding: 10px;
+}
+
+.curriculum-link span {
+  float: right;
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
   .l_sidebar {
-    width: auto;
     float: none;
     margin-left: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .course-creator {
+    float: none;
+    margin: 0 auto;
   }
 }
