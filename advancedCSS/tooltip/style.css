@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  max-width: 300px;
+}
+
+.tooltip-trigger {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  color: seagreen;
+  text-decoration: none;
+}
+
+.tooltip {
+  /* Hide the tooltip by default */
+  display: none;
+  background: white;
+  border: 1px solid;
+  position: absolute;
+  min-width: 150px;
+}
+
+/*
+    Show the tooltip when hovering
+    over the wrapper:
+  */
+.tooltip-trigger:hover .tooltip {
+  display: block;
+}
