@@ -1,0 +1,24 @@
+body {
+  padding: 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid;
+  margin: 16px auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+img {
+  display: block;
+  align-self: center;
+  width: 300px;
+  margin-top: 16px;
+}
