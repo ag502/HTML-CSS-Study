@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav,
+main {
+  padding: 16px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  margin: 16px 0 64px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+nav {
+  align-self: flex-start;
+  position: sticky;
+  top: 0;
+}
+
+main {
+  flex: 1;
+}
